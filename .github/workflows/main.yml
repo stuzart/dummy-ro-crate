@@ -8,7 +8,7 @@ jobs:
     - name: register
       id: register
       uses: stuzart/workflowhub-register-action@v2
-    - with:
+      with:
         workflow-file: 'test.cwl'
 	api-token: 'hhh'	
 	api-user: 'xxx'
