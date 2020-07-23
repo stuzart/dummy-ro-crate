@@ -1,0 +1,94 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.0/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.0"
+      }
+    },
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "mainEntity": {
+        "@id": "hive-hexagon.cwl"
+      },
+      "hasPart": [
+        {
+          "@id": "hive-hexagon.cwl"
+        }
+      ],
+      "author": [
+
+      ],
+      "provider": [
+        {
+          "@id": "#project-1"
+        }
+      ],
+      "license": "Apache-2.0",
+      "identifier": "http://localhost:3000/workflows/11?version=1",
+      "url": "http://localhost:3000/workflows/11/ro_crate?version=1",
+      "isBasedOn": "https://github.com/common-workflow-language/hive-cwl-examples",
+      "sdPublisher": {
+        "@id": "#person-1"
+      },
+      "sdDatePublished": "2020-07-23 09:44:03 +0000"
+    },
+    {
+      "@id": "hive-hexagon.cwl",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "Workflow"
+      ],
+      "programmingLanguage": {
+        "@id": "#cwl"
+      },
+      "url": "https://raw.githubusercontent.com/common-workflow-language/hive-cwl-examples/main/workflow/hive-hexagon.cwl",
+      "contentSize": 2307
+    },
+    {
+      "@id": "#ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "#cwl",
+      "@type": "ComputerLanguage",
+      "name": "Common Workflow Language",
+      "alternateName": "CWL",
+      "identifier": {
+        "@id": "https://w3id.org/cwl/v1.0/"
+      },
+      "url": {
+        "@id": "https://www.commonwl.org/"
+      }
+    },
+    {
+      "@id": "#project-1",
+      "@type": "Organization",
+      "name": "Default Project",
+      "identifier": "http://localhost:3000/projects/1"
+    },
+    {
+      "@id": "#person-1",
+      "@type": "Person",
+      "name": "Stuart Owen",
+      "identifier": "http://localhost:3000/people/1"
+    }
+  ]
+}
