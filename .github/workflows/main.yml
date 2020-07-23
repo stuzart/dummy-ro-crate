@@ -9,8 +9,8 @@ jobs:
       id: register
       uses: stuzart/workflowhub-register-action@v2
     - with:
-        "workflow-file": 'test.cwl'
-	"api-token": ${{ secrets.API_TOKEN }}	
-	"api-user": ${{ secrets.API_USER }}
+        workflow-file: 'test.cwl'
+	api-token: 'hhh'	
+	api-user: 'xxx'
     - name: Get the output
       run: echo "The resutl was ${{ steps.register.outputs.result }}"
